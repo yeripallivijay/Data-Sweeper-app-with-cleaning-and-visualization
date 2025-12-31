@@ -42,10 +42,3 @@
 *   **Visualization:** Matplotlib / Plotly (via Streamlit's native charts)
 *   **File Handling:** OpenPyXL (for Excel support)
 
----
-
-## 💻 Installation & Local Setup
-
-If you want to run this app locally, follow these steps:
-
-**1. Clone the repository:**

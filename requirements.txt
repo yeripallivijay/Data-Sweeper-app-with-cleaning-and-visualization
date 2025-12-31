@@ -1,0 +1,6 @@
+ipykernel
+streamlit
+openpyxl
+pandas
+pyarrow
+lxml

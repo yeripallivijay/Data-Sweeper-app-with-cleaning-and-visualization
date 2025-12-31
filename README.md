@@ -32,5 +32,9 @@ In the Data Science and AI pipeline, the first bottleneck is often simply viewin
 *   **Dynamic Parsing:** Implementing a routing logic to select the correct parsing engine (e.g., `read_parquet` vs `read_xml`) based on file signatures.
 
 ---
+🔗 **Live Demo:** [Click here to use the app](https://data-sweeper-app-with-cleaning-and-visualization-4sgj4msgkjlti.streamlit.app/)
+
 **Developed by [vijay]**
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/vijayarjun58/) | [Twitter](https://x.com/Vijay_yeripalli)*
+
+

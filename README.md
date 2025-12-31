@@ -26,40 +26,11 @@ In the Data Science and AI pipeline, the first bottleneck is often simply viewin
 *   **Database Management:** `sqlite3` - For handling relational database files in memory.
 *   **Utilities:** `json`, `os`, `tempfile` - For file system management and parsing.
 
-## 📸 Application Demo
-
-*(Place a screenshot or a GIF of your app here. Use a tool like LICEcap or just a clean screenshot of the dashboard showing a loaded CSV)*
-
-## ⚙️ Installation & Run
-
-1.  **Clone the repository:**
-    ```
-    git clone https://github.com/yourusername/universal-data-uploader.git
-    cd universal-data-uploader
-    ```
-
-2.  **Install dependencies:**
-    ```
-    pip install streamlit pandas openpyxl pyarrow lxml
-    ```
-
-3.  **Run the application:**
-    ```
-    streamlit run app.py
-    ```
 
 ## 🧠 Technical Challenges Solved
 *   **SQLite Integration:** Handling `.db` files in a web interface required managing temporary files securely (`tempfile`) to allow the `sqlite3` engine to connect, query metadata, and extract tables before cleaning up the environment.
 *   **Dynamic Parsing:** Implementing a routing logic to select the correct parsing engine (e.g., `read_parquet` vs `read_xml`) based on file signatures.
 
-## 🔮 Future Improvements
-*   Add support for large file chunking (Lazy Loading) to handle datasets >1GB.
-*   Integrate AI-based description of the dataset using an LLM API.
-*   Add simple data visualization charts (Histograms/Correlation Heatmaps).
-
-## 🤝 Contribution
-Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature enhancements.
-
 ---
-**Developed by [Your Name]**
-*Connect with me on [LinkedIn](Your_LinkedIn_URL) | [Twitter](Your_Twitter_URL)*
+**Developed by [vijay]**
+*Connect with me on [LinkedIn](https://www.linkedin.com/in/vijayarjun58/) | [Twitter](https://x.com/Vijay_yeripalli)*
